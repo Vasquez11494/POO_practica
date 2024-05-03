@@ -20,3 +20,8 @@
         echo "El producto es: <b>".$this->nombre."</b> y su precio es de: <b>".$this->precio;
     }
  }
+
+//  Instancia
+ $producto1 = new Producto('tableta', 200, true);
+//  mostrar Producto
+$producto1->MostrarProducto();
